@@ -1,17 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 html, body{
     height:100%;
+    line-height: 1;
 }
 
 video{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    min-width:100%;
-    max-width: 1200%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+
+    width:100%;
+    height: 100%;
     z-index: -1000;
     overflow: hidden;
 } 
@@ -23,39 +20,79 @@ body {
     margin: 0;
     border: 0;
 }
-.container {
-    width: 705px;
-    height: 400px;
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
     margin: 0 auto;
+
 }
-.logo {
-    font-weight: 400;
+.logo{
+    font-weight: 100;
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #E6E9ED;
-    font-size: 80px;
+    font-size: 51px;
     position: relative;
     margin: 0;
+    padding-top: 20%;
 }
-
-.word {
-    color: #3BAFDA;
-}
-
 .right, .left {
     font-family: arial;
-    font-size: 180px;
+    font-size: 63px;
     position: relative;
-    top: 55px;
+    top: 5px;
     color: #3BAFDA;
-    margin: 0 0 0 20px;
+    margin: 0 3px 0 3px
 }
-
 .text {
-    font-size: 30px;
-    position: absolute;
-    top: 168px;
-    left: 214px;
-}
-.left {
-    margin: 0 30px 0 0;
+        font-size: 17px;
+        
+        
+    }
+.word {
+        color: #3BAFDA;
+    }
+    
+@media screen and (min-width : 667px)
+{
+    .container {
+        width: 705px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .logo {
+        font-weight: 400;
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+        color: #E6E9ED;
+        font-size: 80px;
+        position: relative;
+        margin: 0;
+        padding: initial;
+        
+
+    }
+
+    .word {
+        color: #3BAFDA;
+    }
+
+    .right, .left {
+        font-family: arial;
+        font-size: 180px;
+        position: relative;
+        top: 55px;
+        color: #3BAFDA;
+        margin: 0 0 0 20px;
+    }
+
+    .text {
+        font-size: 30px;
+        position: absolute;
+        top: 168px;
+        left: 214px;
+    }
+    .left {
+        margin: 0 30px 0 0;
+    }
+
 }
