@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    BillyAndrys -- Estudiante de la WEB  -- @BillyAndrys
 
 # THANKS
 
-    <name>
+    A la ilusión de vivir por lo que te apasiona, y reiventar mundo.
 
 # TECHNOLOGY COLOPHON
 
