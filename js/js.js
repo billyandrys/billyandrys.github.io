@@ -11,6 +11,9 @@ $(document).ready(function(){
 function Datos(){
   
   $("video").fadeOut("slow");
-  
+  var page = "http://localhost/billyandrys.github.io/un_poco_de_mi/";
+ 
+	location.href=page;
+ 
 
 }

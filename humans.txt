@@ -1,13 +1,13 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
+# BillyAndrys & technology  
 
 # TEAM
 
-    BillyAndrys -- Estudiante de la WEB  -- @BillyAndrys
+    BillyAndrys -- Estudiante desarrollador de la WEB  -- @BillyAndrys
 
 # THANKS
 
-    A la ilusión de vivir por lo que te apasiona, y reiventar mundo.
+    A la ilusión de vivir por lo que te apasiona, y reiventar tu mundo.
 
 # TECHNOLOGY COLOPHON
 
